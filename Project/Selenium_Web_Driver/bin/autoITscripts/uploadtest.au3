@@ -1,0 +1,5 @@
+$WindowHandle=WinGetHandle("Open")
+WinActivate($WindowHandle)
+sleep(2000)
+ControlSetText ( "Open", "", "[Class:Edit;Instance:1]", "C:\Selenium Training Workspace\Selenium_Web_Driver\Snapshots\Post_Login.png" )
+ControlClick ( "Open", "", "[Class:Button;Instance:1]" )

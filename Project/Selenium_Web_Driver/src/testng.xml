@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="POM_Testing" verbose="2">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="anyurl"/>
+  <parameter name="password" value="anypassword"/>
+    <classes>
+      <class name="NaveenPOM.testcases.testcasedeploymentpartone"/>
+      <class name="NaveenPOM.testcases.testcasedeploymenttwo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

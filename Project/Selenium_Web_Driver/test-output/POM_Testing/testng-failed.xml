@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [POM_Testing]">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="password" value="anypassword"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="anyurl"/>
+    <classes>
+      <class name="NaveenPOM.testcases.testcasedeploymentpartone">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="adduser"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- NaveenPOM.testcases.testcasedeploymentpartone -->
+      <class name="NaveenPOM.testcases.testcasedeploymenttwo">
+        <methods>
+          <include name="trashtestcase"/>
+          <include name="closebrowser"/>
+          <include name="customfieldstestcase"/>
+          <include name="tagstestcase"/>
+          <include name="trackstestcase"/>
+          <include name="taskcategorytestcase"/>
+          <include name="integrationstestcase"/>
+          <include name="snapshotuponerror"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- NaveenPOM.testcases.testcasedeploymenttwo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [POM_Testing] -->

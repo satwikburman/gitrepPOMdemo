@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Primesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="Testsample(failed)">
+    <classes>
+      <class name="NaveenPOM.testcases.testcasedeploymentpartone">
+        <methods>
+          <include name="snapshotuponerror"/>
+          <include name="Login"/>
+          <include name="closebrowser"/>
+          <include name="adduser"/>
+          <include name="startbrowser"/>
+          <include name="addCase"/>
+        </methods>
+      </class> <!-- NaveenPOM.testcases.testcasedeploymentpartone -->
+      <class name="NaveenPOM.testcases.testcasedeploymenttwo">
+        <methods>
+          <include name="trashtestcase"/>
+          <include name="closebrowser"/>
+          <include name="Login"/>
+          <include name="maildropboxtest"/>
+          <include name="customfieldstestcase"/>
+          <include name="tagstestcase"/>
+          <include name="exporttestcase"/>
+          <include name="taskcategorytestcase"/>
+          <include name="appearancetestcase"/>
+          <include name="integrationstestcase"/>
+          <include name="startbrowser"/>
+          <include name="userstest"/>
+          <include name="invoicetestcase"/>
+          <include name="opportunitiestest"/>
+          <include name="trackstestcase"/>
+          <include name="snapshotuponerror"/>
+          <include name="accounttestcase"/>
+        </methods>
+      </class> <!-- NaveenPOM.testcases.testcasedeploymenttwo -->
+    </classes>
+  </test> <!-- Testsample(failed) -->
+</suite> <!-- Failed suite [Primesuite] -->
